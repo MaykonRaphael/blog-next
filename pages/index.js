@@ -63,5 +63,6 @@ export async function getServerSideProps() {
   const posts = await getPosts();
   const globalData = getGlobalData()
 
+
   return { props: { posts, globalData } };
 }
